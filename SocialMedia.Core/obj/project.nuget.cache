@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "V5Z6MFlP6XTW2v/XiJYZjQhA+NsUgRu+vgf7w2dz4x50MvqdRHt3H/28BU7qG/8O72svnw1/L71z14xw/puEGg==",
+  "success": true,
+  "projectFilePath": "D:\\www\\Proyectos PLE\\API\\SocialMedia\\SocialMedia.Core\\SocialMedia.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,51 @@
+CREACION POR CONSOLA (SEGUIR PASO A PASO)
+--==============================================================--
+
+A- CREACION DE REPOSITORIO
+
+1 - Ir al reposistorio
+Correo: victorossa.alm@gmail.com
+Password: 8370@Ines
+(En caso de ser necesario consultar codigo especial en PLE, donde se encuentran los repositorios actuales)
+
+2 - En el Repositorio:
+Nombre repositorio: 
+
+ NomDeLaApp
+
+Descripcion: 
+
+ Repositorio de la aplicacion NomDeLaApp
+
+Tipo repositorio: Publico
+Inicializarlo con un archivo README
+Crear Repositorio
+
+--==============================================================--
+
+B- GENERAR RUTA DE PROYECTO
+1- Generar el archivo creacion de la ruta de este componente.
+2- Ubicarce donde esta el archivo y en esta ubicacion abrir gitbash o shell.
+
+--==============================================================--
+
+D - CREACION DE LA APLICACION
+1- Ubicados en la ruta ya sea con git o con shell copiamos y pegamos el siguiente codigo:
+
+ dotnet new sln -n "NomDeLaApp"
+dotnet new webapi -n "NomDeLaApp.Api" -f netcoreapp3.1 
+dotnet new classlib -n "NomDeLaApp.Core" -f netstandard2.0
+dotnet new classlib -n "NomDeLaApp.Infrastructure" -f netstandard2.0
+dotnet sln NomDeLaApp.sln add NomDeLaApp.Api
+dotnet sln NomDeLaApp.sln add NomDeLaApp.Core
+dotnet sln NomDeLaApp.sln add NomDeLaApp.Infrastructure
+git init
+git remote add origin https://github.com/UsuGit/NomDeLaApp.git
+git status
+git add .
+git status
+git commit -m"Inicio del proyecto NomDeLaApp"
+git push
+git push --set-upstream origin master
+
+--==============================================================--
